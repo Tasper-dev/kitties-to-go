@@ -10,8 +10,8 @@ body {
 h1 {
     color: white;
     font-weight: 700;
-    font-size: 48px;
-    padding: 4rem 0 0 7rem;
+    font-size: 56px;
+    padding: 5rem 0 0 7rem;
 }
 
 h2 {
@@ -45,7 +45,7 @@ a {
 p {
     color: #303030;
     font-weight: 300;
-    font-size: 16px
+    font-size: 16px;
 }
 
 h3 {
@@ -55,14 +55,16 @@ h3 {
 
 .important {
     color: #00afc5;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 blockquote {
     color: #00afc5;
+    font-size: 24px;
 }
 
-.blue-links {
+.blue-text {
     color: #00afc5;
 }
 
@@ -95,17 +97,15 @@ footer li {
 
 .box-one {
     box-sizing: border-box;
-    width: 55%;
-    padding: 3rem 2rem 3rem 7rem;
-    border: 3px solid red;
+    width: 60%;
+    padding: 3rem 0 3rem 7rem;
     margin: 0;
 }
 
 .box-two {
     box-sizing: border-box;
-    width: 55%;
-    padding: 0 2rem 3rem 7rem;
-    border: 3px solid red;
+    width: 60%;
+    padding: 0 0 3rem 7rem;
     margin: 0;
 }
 
@@ -113,11 +113,15 @@ footer li {
     box-sizing: border-box;
     width: 35%;
     padding: 3rem 7rem 3rem 0;
-    border: 3px solid green;
+    margin: 0;
     float: right;
 }
 
 .cat-img {
     width: 100%;
 
+}
+
+footer nav {
+    padding: 1rem 0 1rem 0;
 }
