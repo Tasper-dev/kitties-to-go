@@ -135,6 +135,7 @@ footer nav {
     width: 50%;
     padding: 1rem;
     margin: 1rem 2rem 1rem 7rem;
+    border: 2px solid #303030;
 }
 
 .first-image {
@@ -145,4 +146,14 @@ footer nav {
 .margin {
     margin: 3rem 0 1rem 7rem;
     padding: 1rem;
+}
+
+.story-box {
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid red;
+    float: right;
+    padding: 1rem;
+    margin: 2rem 7rem 1rem 0;
+
 }
