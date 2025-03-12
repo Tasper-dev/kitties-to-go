@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Kitties To Go</title>
+<script src="https://kit.fontawesome.com/fab87b9ac1.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <a class="hidden" href="#main-content">Skip to main content</a>
     <header>
         <h1>KITTIES TO GO!</h1>
         <h2><em>Seattle's premiere drive-thru <br>cat rentals</em></h2>
@@ -30,9 +32,9 @@
         <section>
             <h3>CATS IN THE NEWS</h3>
             <p>Quisque pellentesque nec libero in posuere. Pellentesque quis massa id ligula pellentesque ultrices in in ipsum.</p>
-            <a class="blue-text" href="#">Find out more >></a>
+            <a class="blue-text" href="#">Find out more<i class="fa-solid fa-square-up-right"></i></a>
             <p>Quisque pellentesque nec libero in posuere. Pellentesque quis massa id ligula pellentesque ultrices in in ipsum.</p>
-            <a class= "blue-text" href="#">Find out more >></a>
+            <a class= "blue-text" href="#">Find out more<i class="fa-solid fa-square-up-right"></i></a>
         </section>
         <section>
             <h3>CATS OF THE WEEK</h3>
@@ -40,10 +42,11 @@
                 <img class="cat-img" src="images/lesson04-mock3-sidebar-cat.jpg" alt="A cute gray kitten with blue eyes.">
                 <figcaption>Pellentesque quis massa id ligula pellentesque ultrices in in ipsum.</figcaption>
             </figure>
-            <a class="blue-text" href="#">Book Now >></a>
+            <a class="blue-text" href="#">Book Now<i class="fa-solid fa-square-up-right"></i></a>
         </section>
     </aside>
-    <div class="box-one">
+    <div class="box-one" id="main-content">
+        <h3 class="sr-only">WHAT IS KITTIES TO GO</h3>
         <p class="important">Cat ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum vel ante in molestie. Etiam convallis felis erat, at ullamcorper nisl scelerisque in.</p>
         <p>Phasellus porttitor et leo ut tempor. Aliquam iaculis venenatis sollicitudin. In hac habitasse platea dictumst. <span class="blue-text">Phasellus ac neque massa.</span> Morbi nunc arcu, rutrum non enim in, congue accumsan leo. Fusce hendrerit, nulla ac cursus vulputate, ante quam ullamcorper purus, aliquam lacinia urna lorem id nisi. Nullam rutrum ex sit amet turpis finibus egestas.</p>
         <blockquote>Fusce efficitur risus sit amet blandit rutrum. Aliquam vitae magna semper, eleifend leo eget, posuere arcu. Maecenas nibh lorem, porttitor id risus in, scelerisque iaculis nisl. In quis lacinia mi. <br><em>-Lorem Ipsum</em></blockquote>
@@ -54,7 +57,7 @@
         <p>Cras fringilla sem ac erat vehicula facilisis sed ac felis. Nulla facilisi. In vestibulum ultrices ipsum, sit amet accumsan justo posuere ac. Nam vel convallis elit, id pellentesque ipsum. Morbi fermentum, mauris et porta tempus, sem nisl laoreet eros, quis sagittis lorem nisl sit amet nulla.</p>
     </article>
     <footer>
-        <img src="images/lesson04-mock5-cat-logo.png" alt="cat logo">
+        <img src="images/lesson04-mock5-cat-logo.png" alt="">
         <p class="footer-text">Phasellus ac lorem vitae magna eleifend pellentesque.<br>Vivamus aliquet vehicula arcu eu euismod. </p>
         <nav>
             <ul>
