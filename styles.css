@@ -1,6 +1,11 @@
 header {
-    background-image: url("images/lesson04-mock2-banner-image.jpg");
+    background-image: url("images/lesson04-mock2-banner-image.jpg"), linear-gradient(to right, #000 0%, #005F6B 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 body {
     font-family: Roboto, sans-serif;
@@ -81,6 +86,10 @@ figure {
 
 footer {
     background-image: url("images/lesson04-mock4-footer-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #303030;
     text-align: center;
     padding: 5rem;
     clear: right;
@@ -90,11 +99,11 @@ footer {
     color: white;
 }
 
-footer a {
+footer li {
     color: white;
 }
 
-footer li {
+footer a {
     color: white;
 }
 
