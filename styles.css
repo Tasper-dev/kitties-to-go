@@ -93,9 +93,17 @@ footer {
     background-size: cover;
     background-color: #303030;
     text-align: center;
-    padding: 5rem;
+    padding: 1rem;
     clear: right;
+
 }
+
+
+.logo {
+    width: 100%;
+    max-width: 356px;
+}
+
 
 .footer-text {
     color: white;
@@ -109,26 +117,64 @@ footer a {
     color: white;
 }
 
+.aside-box {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0;
+    margin: 3rem 7rem 3rem 0;
+    float: right;
+}
+
 .box-one {
     box-sizing: border-box;
-    width: 60%;
-    padding: 3rem 0 3rem 7rem;
-    margin: 0;
+    width: 50%;
+    padding: 1rem;
+    margin: 2rem 0 2rem 6rem;
+
 }
 
 .box-two {
     box-sizing: border-box;
-    width: 60%;
-    padding: 0 0 3rem 7rem;
-    margin: 0;
+    width: 50%;
+    padding: 1rem;
+    margin: 0 0 2rem 6rem;
+
 }
 
-.aside-box {
-    box-sizing: border-box;
-    width: 35%;
-    padding: 3rem 7rem 3rem 0;
-    margin: 0;
-    float: right;
+@media screen and (max-width: 760px) {
+    .aside-box {
+        display: none;
+    }
+
+    .box-one {
+        width: 100%;
+        margin: auto;
+        padding: .5rem;
+
+    }
+
+    .box-two {
+        width: 100%;
+        margin: auto;
+        padding: .5rem;
+
+    }
+
+    header {
+        background-image: linear-gradient(to right, #000 0%, #005F6B 100%);
+    }
+
+    header h1 {
+        padding: 1rem;
+    }
+
+    header h2 {
+        padding: 1rem;
+    }
+
+    .top-nav {
+        padding: 1rem;
+    }
 }
 
 .cat-img {
@@ -137,6 +183,16 @@ footer a {
     height: auto;
     object-fit: cover;
     padding-top: 1rem;
+}
+
+@media print {
+    body img {
+        display: none;
+    }
+
+    body {
+        line-height: 1.1;
+    }
 }
 
 footer nav {
@@ -183,7 +239,7 @@ footer nav {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    width: 43%;
+    width: 45%;
     padding: .5rem;
     margin: 2px;
     border: 2px solid #00afc5;
@@ -193,11 +249,18 @@ footer nav {
 
 .first-image {
     float: right;
-    padding: .5rem;
+    padding: 3px;
+    width: 320px;
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    padding-top: 1rem;
+
+}
+
+@media screen and (max-width: 760px) {
+    .profile {
+        width: 100%;
+    }
 }
 
 .margin {
