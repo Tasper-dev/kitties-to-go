@@ -209,9 +209,12 @@ footer nav {
 }
 
 .hidden {
-    position: relative;
+    position: absolute;
     left: -10000px;
     top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .hidden:focus {
