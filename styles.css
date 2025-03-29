@@ -160,10 +160,6 @@ footer a {
 
     }
 
-    header {
-        background-image: linear-gradient(to right, #000 0%, #005F6B 100%);
-    }
-
     header h1 {
         padding: 1rem;
     }
